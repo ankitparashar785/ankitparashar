@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<header>
+ <link rel="stylesheet" href="github.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script type="text/javascript">
+ 	function displsay() {
+ 		var text=" 1 . Focus to wash hand regular interval";
+ 		var text2=" 2 . Dont shake hand with people";
+ 		document.getElementById('a').innerHTML=text;
+ 			document.getElementById('b').innerHTML=text2;
+
+ 	}
+ 	function none() {
+ 			var text=""
+ 		document.getElementById('a').innerHTML=text;
+
+ 	}
+ $(document).ready(function(){
+  $("#visible").on({
+  	click:function()
+  	{
+         $("#disapper").toggle(1000);
+  	}
+  });
+  $("#m").click(function(){
+   $("#message").slideToggle(1000);
+  });
+
+});
+
+ </script>
+</head>
+<body >
+<header>
+	<div class="overlay">
+<h1>Simply The Best</h1>
+<h3>" Education is most powerful weapon which you can use to change the world "</h3>
+<p>
+ Myself   
+</br>
+  Ankit parashar</p>
+</p>
+</div>
+</header>
+<section>
+<div id= "image">
+	<img id ="img"src="p.jpg">
+	</div>
+	<div id="about">
+		<p id="abouts"> About me !</p>
+		<hr>
+		<p class="about">I'm Ankit first year student of <em>NATIONAL INSTITUTE OF TECHNOLOGY PATNA .</em>persuing my B.Tech Electronics and communication .</p>
+		<br>
+		<hr>
+		<p CLASS="about">I'm very Enthusius to learn "<em>FRONT END WEB DEVOLOPMENT</em>"...</p>
+		<br><hr>
+		<p CLASS="about">I'm from SAHARSA(Bihar) and completed Intermediate 10+2 High school Dhaubulli..</p>
+	</div>
+<div class="container">
+	<h1>My Skills</h1>
+  <div class="skills html" data-percent="20%">HTML</div>
+</div>
+
+<div class="container">
+  <div class="skills css" data-percent="20%">CSS</div>
+</div>
+
+
+
+<div class="container">
+  <div class="skills js" data-percent="20%"> JAVA SCRIPT</div>
+</div>
+<div class="container">
+  <div class="skills php" data-percent="20%">C Language</div>
+</div>
+<div id="coronavirus" data-percent="20%">
+	<h2>click to learn awareness to coronavirus</h2>
+	<br>
+	<button onclick="displsay()" ondblclick ="none()" >CLICK ME </button>
+	<br>
+	<label id="a"></label>
+	<br>
+	<label id="b"></label>
+</div>
+<div id="more">
+	<div id="visible"  onclick="navigation()" ondblclick ="diss()" >
+	<span class="ak">____</span><br>
+	<span class="ak">____</span><br>
+	<span class="ak">____</span>
+	   </div>
+	<div id="disapper">
+		<P id="m">Click to Message me </P>
+		<div id="message">
+			<div id="information">
+			<span>Name</span>
+			<input type="text" name="">
+			<br>
+			<span>Email</span>
+			<input type="email" name="">
+			<br>
+             <span>Phone</span>
+			<input type="email" name="">
+			<br>
+
+         <button id="send">Send</button>
+		</div>
+		</div>
+	</div>
+	<div id="disapper2">
+		<p>Click to Message me </p>
+	</div>
+	
+	</div>
+	<DIV id="Memories">
+		<h3> Some Memories </h3>
+		<img src="pk.jpg" class="anki">
+	<br>
+	<img src="dost.jpg" class="anki">
+	<br>
+	<img src="nature.jpg" id="nature">
+</DIV>
+<img src="nature.jpg" id="nature">
+ </section>
+<footer>
+	<div id="contact">
+		<h4>Contact : 7654268144 </h4>
+		<h4>Email : ankitparashar516@gmail.com </h4>
+	</div>
+	<div id="logo">
+		<img src="logo.jpg" id="l">
+	</div>
+	<br>
+	<p id ="s">My social media links</p>
+	<ul>
+	     <li><a href="https://www.faceboo.com/">Facebook</a></li>
+		<li></li>
+	</ul>
+</footer>
+</body>
+</html>
+
+
+	

@@ -1,0 +1,376 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image:linear-gradient( 135deg, #9f05ff99 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+p
+{
+	font-size: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+	letter-spacing: 3px;
+	}
+body
+{
+	background-color:white;
+}
+#image
+{
+	width:30%;
+	height:500px;
+	float:right;
+	background-color: white;
+	margin-top: -20px;
+ 	border-top-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+
+}
+#abouts
+{
+	font-size: 40px;
+	 margin-left: 20px;
+}
+#about
+{
+	width:65%;
+	height: 350px; 
+	background-color:transparent;
+	padding-left:40px;
+	color:black ;	
+
+}
+#about p
+{
+font-weight:bolder;
+font-kerning: 20px;
+
+   
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+ .about
+{
+	font-size: 20px;
+  font-family: cursive;
+ word-spacing: 0px;
+ text-align: justify;
+ color:aqua;
+ text-align: center;
+}
+footer
+{
+background-color:black;
+height: 300px;
+
+margin-top: 1000px;
+
+width: 100%;
+}
+#img
+{  margin-top: 10px;
+	width:100%;
+	border-top-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+
+	height: 500px;
+}
+/*ankit8*/
+.container {
+    width: 40%; /* Full width */
+    background-color:transparent; /* Grey background */
+    margin-left:20px;
+}
+
+.skills {
+    text-align:left; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: red; /* White text color */
+    margin:4px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.html {width: 80%; background-color: yellow;
+border: 2px solid white;
+    border-radius: 20px;
+height: 30px;}
+ /* Green */ .css 
+ {  width: 60%;
+    background-color: lime;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 30px;
+}
+ /* Blue */ .js 
+ {
+ 	width: 70%; background-color:
+    yellow;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 30px;
+} 
+/* Red */ .php
+ {
+ 	width: 80%;
+  background-color:lime;
+  border: 2px solid white;
+    border-radius: 20px;
+    height: 30px;
+}
+h1
+{   color:fuchsia;
+	margin-left: -190px;
+}
+#contact
+{
+	width:30%;
+	height: 100px;
+	background-color: lime;
+	float: right;
+	border-bottom-left-radius: 80px;
+}
+h4
+{
+		text-align:left;
+   padding-left: 20px;
+   padding-top: 5px;
+   padding-bottom: 3px;
+   color:darkblue;
+   
+}
+#img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#coronavirus
+{
+	width:30%;
+	height: 300px;
+	float: right;
+	background-color:transparent;
+	border: 5px solid blue;
+	border-radius: 20px;
+}
+h2
+{
+	margin:auto;
+	padding-top:7px;
+	color:green;
+}
+button:hover
+{
+background-color:green;
+}
+button
+{
+background-color:hotpink;
+color: white;
+}
+label
+{
+	font-size: 20px;
+		font-family: Impact, Charcoal, sans-serif;
+		color:orange;
+		margin: 20px;
+
+}
+#more
+{    
+    margin-top: 30px;
+	margin-left:50px;
+
+	width:60%;
+	height: 200px;
+	background-color:transparent;
+
+}
+
+#visible
+{
+	width:100px;
+	height: 60px;
+	background-color:pink;
+	float:right;
+	position: relative;
+	right:5px;
+	top:5px;
+   cursor: pointer;
+   border-radius: 200px;
+}
+span .ak
+{  
+	font-size: 100px;
+	padding: 0px;
+	font-weight: bold;
+}
+#disapper
+{
+	width:800px;
+  height: 100px;
+  background-color:blue;
+  float:left;
+  display: none;
+  border-radius: 800px;
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+#disapper2:hover
+{
+	height: 300px;
+}
+#visible:active {
+  background-color: yellow;
+}
+#disapper2
+{
+	width:800px;
+  height: 100px;
+  background-color: hotpink;
+  float:left;
+  display: none;
+  border-radius: 800px;
+  transition-property: height;
+  transition-duration: 2s;
+}
+#x
+{
+	display: none;
+}
+#message
+{
+	width: 800px;
+	height: 200px;
+	background-color: yellow;
+	display: none;
+	margin-top: 20px;
+	border-radius: 800px;
+	padding-top: 50px;
+}
+   
+   #information
+   {
+   	color:black;
+   	background-color:transparent;
+   	width: 80%;
+   	height: 100px;
+   	margin: auto;
+
+   }
+   input
+   {
+   	margin-bottom: 5px;
+   }
+   #send
+   {
+   	margin-left: 180px;
+   	 	margin-top: 10px;
+
+   }
+   h3
+   {
+   	font-size: 25px;
+   	 font-family: Impact, Charcoal, sans-serif;
+
+   }
+   #Memories
+   {
+   	width: 60%;
+   	background-color:transparent;
+   	height: 500px;
+   	margin: auto;
+   	margin-top: 150px;
+
+
+   }
+   .anki
+   {
+   	width:50%;
+   	height: 250px;
+   	border-radius: 200px;
+   	border: 5px solid brown;
+     }
+   #Desceiption
+   {
+   	padding-top: 130px;
+   }
+   #l
+   {
+   	width: 30%;
+   	height: 100px;
+   	margin: auto;
+   	margin-top: 10px;
+   }
+   #s
+   {
+   	font-size: 20px;
+   	color:red;
+   }
+   #nature
+   {
+   	width: 100%;
+   	border-radius: 800px;
+   	height:800px;
+   	margin-top: 200px;
+
+   }
